@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenhando</title>
+    <link rel="icon" href="assets/images/icone-logo.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <div class="container">
+  
+        <div class="title-container"><h2>~ Desenhando ~</h2></div>
+
+        <div id="pen-tools" class="pen-tools">
+            <div id="drawing-colors" class="drawing-colors">
+                <div class="color-circle active" data-color="black" onclick="selectColor(this)"></div>
+                <div class="color-circle " data-color="orange" onclick="selectColor(this)"></div>
+                <div class="color-circle " data-color="red" onclick="selectColor(this)"></div>
+                <div class="color-circle " data-color="yellow" onclick="selectColor(this)"></div>
+                <div class="color-circle " data-color="hotpink" onclick="selectColor(this)"></div>
+                <div class="color-circle " data-color="blue" onclick="selectColor(this)"></div>
+                <div class="color-circle " data-color="white" onclick="selectColor(this)"></div>
+                <div class="color-circle " data-color="green" onclick="selectColor(this)"></div>
+            </div>
+   
+        <div id="favContainer"><label for="favcolor">Selecione uma cor? </label>
+            <input type="color" name="favcolor" id="favcolor" value="#ff0000" onchange="favColor(this)">
+        </div>
+
+        <div id="pen-size" class="pen-size">
+            <label for="pe-size"><i class='bx bxs-pencil' ></i> Tamanho</label>
+            <input type="range" name="pen-size" id="pen-size" value="10" step="5" min="5" max="40" onchange="penSizeChange(this.value)">
+        </div>
+
+    </div>
+        <div class="board">
+            <canvas width="800px" height="380px"></canvas> 
+        </div>
+         
+        <div class="components">
+            <a href="" download="meu_desenho.png" class="button-download">Baixar Desenho </a>
+            <a class="clear">Limpar</a>
+            <button class="undo" onclick="undo_last()">Desfazer</button>
+            
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <footer>Feito por: Gabriel Gomes</footer>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
