@@ -15,7 +15,7 @@
 <p>Prática, estudar e entender mais sobre o canvas do HTML além de usa-lo junto com o JAVASCRIPT</p>
 
 
-<b>Ferramentas: </b>
+<h3>Ferramentas: </h3>
 <p>Quadro branco onde você pode desenhar qualquer coisa, aumentar a espessura dos traços, limpar todo o quadro, desfazer alguma ação feita recentemente e baixar o desenho.</p>
 
 
