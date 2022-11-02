@@ -3,6 +3,9 @@
 <h3>Sobre o projeto: </h3>
 <p>Esse é um quadro para colorir e foi desenvolvido usando o Canvas do HTML5 em combinação com Javascript.</p>
 
+<h3>Objetivo: </h3>
+<p>Prática, estudar e entender mais sobre o canvas do HTML além de usa-lo junto com o JAVASCRIPT</p>
+
 <h3>Tecnologias usadas: </h3>
 <ol>
   <li>HTML5</li>
@@ -11,8 +14,7 @@
   <li>CANVAS</li>
 </ol>
 
-<h3>Objetivo: </h3>
-<p>Prática, estudar e entender mais sobre o canvas do HTML além de usa-lo junto com o JAVASCRIPT</p>
+
 
 
 <h3>Ferramentas: </h3>
