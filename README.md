@@ -14,10 +14,10 @@
   <li>CANVAS</li>
 </ol>
 
+<h3>Como usar:</h3>
+  Basta baixar o projeto, acessar o arquivo index dentro da página.
 
-
-
-<h3>Ferramentas: </h3>
+<h3>Funcionalidades: </h3>
 <p>Quadro branco onde você pode desenhar qualquer coisa, aumentar a espessura dos traços, limpar todo o quadro, desfazer alguma ação feita recentemente e baixar o desenho.</p>
 
 
